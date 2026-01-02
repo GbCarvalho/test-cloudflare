@@ -1,6 +1,6 @@
 {
   "name": "round-sun-9035",
-  "main": "index.js",
+  "main": "worker.js",
   "compatibility_date": "2024-06-02",
   "workers_dev": true
 }
