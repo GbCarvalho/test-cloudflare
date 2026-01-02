@@ -31,7 +31,8 @@ async function transcribeChunk(
   // prefix: "Transcription:",
   const res = await env.AI.run("@cf/openai/whisper-large-v3-turbo", {
     audio: base64,
-    task: "transcribe"
+    task: "transcribe",
+    vad_filter: true,
   });
   return res;
 }
