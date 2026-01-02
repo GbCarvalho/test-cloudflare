@@ -10,6 +10,6 @@ export default {
     };
     const response = await env.AI.run('@cf/openai/whisper', inputs);
 
-    return Response.json({ inputs, response });
+    return Response.json({ response });
   }
 };
