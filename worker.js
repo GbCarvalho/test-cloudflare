@@ -8,7 +8,7 @@ export default {
     const inputs = {
       audio: [...new Uint8Array(blob)]
     };
-    const response = await env.AI.run('@cf/openai/whisper', inputs);
+    const response = await env.AI.run('@cf/openai/whisper-large-v3-turbo', inputs);
 
     return Response.json({ response });
   }
