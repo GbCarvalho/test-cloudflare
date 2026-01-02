@@ -17,5 +17,15 @@
       "persist": true,
       "head_sampling_rate": 1
     }
+  },
+  "ai": {
+    "bindings": [
+      {
+        "name": "AI",
+        "model_namespace": "@cf/openai",
+        "model_name": "whisper-large-v3-turbo",
+        "type": "ai_model"
+      }
+    ]
   }
 }
