@@ -1,7 +1,11 @@
 {
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "round-sun-9035",
-  "main": "worker.js",
+  "main": "worker.ts",
   "compatibility_date": "2024-06-02",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
   "workers_dev": false,
   "observability": {
     "enabled": true,
